@@ -1,0 +1,430 @@
+VIC
+Host,dn,id,model,vendor,serial,blade_id,chassis_id,oper_state,operability,presence,part_number,admin_power_state,base_mac,conn_path,conn_status,perf,voltage,thermal,pci_addr,pci_slot
+172.16.54.166,sys/chassis-3/blade-1/adaptor-1,1,UCSB-MLOM-40G-01,Cisco Systems Inc,SRVADAP90,1,3,operable,unknown,equipped,,none,00:00:33:84:90:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-3/blade-1/adaptor-2,2,UCS-VIC-M82-8P,Cisco Systems Inc,SRVADAP91,1,3,operable,unknown,equipped,,none,00:00:33:84:91:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-3/blade-3/adaptor-1,1,UCSB-MLOM-40G-01,Cisco Systems Inc,SRVADAP92,3,3,operable,unknown,equipped,,none,00:00:33:85:92:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-3/blade-3/adaptor-2,2,UCS-VIC-M82-8P,Cisco Systems Inc,SRVADAP93,3,3,operable,unknown,equipped,,none,00:00:33:85:93:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-3/blade-7/adaptor-4,4,UCSB-MLOM-40G-01,Cisco Systems Inc,SRVADAP94,7,3,operable,unknown,equipped,,none,00:00:33:86:94:01,B,B,not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-3/blade-7/adaptor-2,2,UCS-VIC-M82-8P,Cisco Systems Inc,SRVADAP96,7,3,operable,unknown,equipped,,none,00:00:33:87:96:01,B,B,not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-4/blade-3/adaptor-1,1,UCSB-MLOM-40G-01,Cisco Systems Inc,SRVADAP104,3,4,operable,unknown,equipped,,none,00:00:37:97:04:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-4/blade-3/adaptor-2,2,UCS-VIC-M82-8P,Cisco Systems Inc,SRVADAP105,3,4,operable,unknown,equipped,,none,00:00:37:97:05:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-4/blade-1/adaptor-1,1,UCSB-MLOM-40G-01,Cisco Systems Inc,SRVADAP102,1,4,operable,unknown,equipped,,none,00:00:37:96:02:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-4/blade-1/adaptor-2,2,UCS-VIC-M82-8P,Cisco Systems Inc,SRVADAP103,1,4,operable,unknown,equipped,,none,00:00:37:96:03:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-4/blade-7/adaptor-2,2,UCS-VIC-M82-8P,Cisco Systems Inc,SRVADAP108,7,4,operable,unknown,equipped,,none,00:00:37:99:08:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+172.16.54.166,sys/chassis-4/blade-5/adaptor-1,1,UCSB-MLOM-40G-01,Cisco Systems Inc,SRVADAP106,5,4,operable,unknown,equipped,,none,00:00:37:98:06:01,"A,B","A,B",not-supported,not-supported,unknown,,N/A
+
+
+PCI
+Host,dn,id,model,vendor,serial,mac_left,mac_right,smbios_id,discovery_state,controller_reported
+
+
+VHBAS
+Host,id,dn,model,vendor,serial,wwn,node_wwn,admin_state,order,boot_dev,cdn_name,discovery,chassis_id,ep_dn,host_port,name,if_role,if_type,link_state,max_data_field_size,presence,oper_state,operability,original_node_wwn,original_wwn
+
+
+MEMORY
+Host,dn,id,model,vendor,serial,capacity,clock,presence
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-1,1,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1661,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-2,2,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1662,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-3,3,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1663,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-4,4,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1664,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-5,5,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1665,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-6,6,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1666,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-7,7,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1667,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-8,8,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1668,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-9,9,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1669,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-10,10,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1670,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-11,11,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1671,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-12,12,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1672,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-13,13,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1673,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-14,14,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1674,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-15,15,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1675,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-16,16,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1676,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-17,17,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1677,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-18,18,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1678,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-19,19,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1679,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-20,20,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1680,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-21,21,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1681,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-22,22,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1682,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-23,23,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1683,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-24,24,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1684,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-25,25,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1685,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-26,26,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1686,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-27,27,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1687,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-28,28,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1688,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-29,29,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1689,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-30,30,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1690,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-31,31,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1691,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-1/board/memarray-1/mem-32,32,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1692,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-1,1,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1693,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-2,2,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1694,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-3,3,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1695,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-4,4,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1696,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-5,5,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1697,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-6,6,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1698,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-7,7,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1699,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-8,8,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1700,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-9,9,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1701,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-10,10,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1702,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-11,11,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1703,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-12,12,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1704,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-13,13,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1705,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-14,14,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1706,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-15,15,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1707,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-16,16,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1708,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-17,17,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1709,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-18,18,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1710,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-19,19,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1711,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-20,20,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1712,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-21,21,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1713,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-22,22,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1714,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-23,23,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1715,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-24,24,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1716,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-25,25,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1717,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-26,26,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1718,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-27,27,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1719,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-28,28,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1720,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-29,29,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1721,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-30,30,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1722,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-31,31,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1723,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-3/board/memarray-1/mem-32,32,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1724,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-49,49,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1725,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-50,50,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1726,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-51,51,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1727,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-52,52,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1728,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-53,53,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1729,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-54,54,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1730,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-55,55,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1731,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-56,56,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1732,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-57,57,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1733,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-58,58,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1734,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-59,59,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1735,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-60,60,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1736,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-61,61,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1737,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-62,62,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1738,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-63,63,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1739,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-64,64,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1740,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-65,65,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1741,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-66,66,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1742,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-67,67,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1743,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-68,68,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1744,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-69,69,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1745,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-70,70,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1746,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-71,71,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1747,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-72,72,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1748,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-73,73,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1749,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-74,74,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1750,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-75,75,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1751,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-76,76,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1752,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-77,77,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1753,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-78,78,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1754,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-79,79,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1755,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-80,80,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1756,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-81,81,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1757,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-82,82,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1758,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-83,83,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1759,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-84,84,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1760,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-85,85,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1761,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-86,86,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1762,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-87,87,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1763,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-88,88,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1764,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-89,89,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1765,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-90,90,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1766,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-91,91,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1767,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-92,92,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1768,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-93,93,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1769,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-94,94,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1770,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-95,95,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1771,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-96,96,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1772,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-1,1,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1773,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-2,2,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1774,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-3,3,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1775,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-4,4,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1776,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-5,5,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1777,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-6,6,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1778,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-7,7,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1779,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-8,8,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1780,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-9,9,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1781,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-10,10,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1782,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-11,11,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1783,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-12,12,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1784,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-13,13,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1785,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-14,14,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1786,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-15,15,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1787,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-16,16,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1788,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-17,17,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1789,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-18,18,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1790,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-19,19,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1791,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-20,20,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1792,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-21,21,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1793,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-22,22,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1794,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-23,23,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1795,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-24,24,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1796,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-25,25,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1797,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-26,26,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1798,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-27,27,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1799,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-28,28,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1800,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-29,29,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1801,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-30,30,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1802,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-31,31,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1803,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-32,32,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1804,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-33,33,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1805,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-34,34,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1806,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-35,35,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1807,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-36,36,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1808,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-37,37,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1809,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-38,38,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1810,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-39,39,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1811,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-40,40,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1812,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-41,41,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1813,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-42,42,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1814,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-43,43,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1815,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-44,44,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1816,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-45,45,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1817,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-46,46,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1818,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-47,47,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1819,32768,2133,equipped
+172.16.54.166,sys/chassis-3/blade-7/board/memarray-1/mem-48,48,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM1820,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-1,1,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1997,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-2,2,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1998,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-3,3,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1999,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-4,4,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2000,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-5,5,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2001,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-6,6,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2002,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-7,7,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2003,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-8,8,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2004,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-9,9,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2005,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-10,10,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2006,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-11,11,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2007,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-12,12,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2008,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-13,13,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2009,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-14,14,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2010,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-15,15,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2011,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-16,16,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2012,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-17,17,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2013,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-18,18,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2014,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-19,19,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2015,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-20,20,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2016,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-21,21,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2017,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-22,22,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2018,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-23,23,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2019,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-24,24,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2020,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-25,25,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2021,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-26,26,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2022,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-27,27,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2023,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-28,28,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2024,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-29,29,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2025,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-30,30,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2026,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-31,31,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2027,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-3/board/memarray-1/mem-32,32,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM2028,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-1,1,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1965,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-2,2,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1966,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-3,3,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1967,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-4,4,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1968,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-5,5,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1969,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-6,6,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1970,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-7,7,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1971,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-8,8,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1972,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-9,9,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1973,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-10,10,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1974,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-11,11,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1975,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-12,12,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1976,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-13,13,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1977,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-14,14,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1978,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-15,15,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1979,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-16,16,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1980,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-17,17,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1981,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-18,18,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1982,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-19,19,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1983,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-20,20,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1984,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-21,21,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1985,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-22,22,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1986,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-23,23,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1987,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-24,24,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1988,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-25,25,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1989,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-26,26,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1990,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-27,27,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1991,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-28,28,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1992,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-29,29,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1993,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-30,30,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1994,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-31,31,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1995,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-1/board/memarray-1/mem-32,32,HMA84GR7MFR4N-TFTD,0xAD00,SRVMEM1996,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-1,1,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2077,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-2,2,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2078,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-3,3,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2079,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-4,4,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2080,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-5,5,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2081,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-6,6,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2082,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-7,7,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2083,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-8,8,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2084,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-9,9,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2085,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-10,10,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2086,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-11,11,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2087,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-12,12,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2088,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-13,13,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2089,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-14,14,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2090,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-15,15,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2091,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-16,16,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2092,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-17,17,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2093,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-18,18,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2094,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-19,19,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2095,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-20,20,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2096,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-21,21,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2097,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-22,22,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2098,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-23,23,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2099,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-24,24,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2100,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-25,25,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2101,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-26,26,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2102,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-27,27,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2103,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-28,28,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2104,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-29,29,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2105,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-30,30,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2106,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-31,31,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2107,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-32,32,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2108,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-33,33,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2109,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-34,34,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2110,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-35,35,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2111,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-36,36,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2112,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-37,37,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2113,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-38,38,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2114,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-39,39,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2115,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-40,40,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2116,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-41,41,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2117,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-42,42,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2118,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-43,43,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2119,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-44,44,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2120,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-45,45,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2121,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-46,46,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2122,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-47,47,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2123,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-7/board/memarray-1/mem-48,48,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2124,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-1,1,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2029,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-2,2,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2030,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-3,3,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2031,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-4,4,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2032,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-5,5,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2033,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-6,6,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2034,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-7,7,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2035,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-8,8,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2036,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-9,9,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2037,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-10,10,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2038,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-11,11,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2039,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-12,12,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2040,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-13,13,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2041,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-14,14,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2042,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-15,15,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2043,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-16,16,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2044,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-17,17,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2045,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-18,18,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2046,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-19,19,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2047,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-20,20,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2048,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-21,21,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2049,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-22,22,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2050,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-23,23,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2051,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-24,24,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2052,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-25,25,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2053,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-26,26,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2054,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-27,27,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2055,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-28,28,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2056,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-29,29,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2057,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-30,30,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2058,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-31,31,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2059,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-32,32,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2060,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-33,33,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2061,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-34,34,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2062,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-35,35,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2063,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-36,36,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2064,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-37,37,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2065,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-38,38,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2066,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-39,39,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2067,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-40,40,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2068,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-41,41,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2069,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-42,42,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2070,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-43,43,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2071,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-44,44,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2072,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-45,45,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2073,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-46,46,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2074,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-47,47,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2075,32768,2133,equipped
+172.16.54.166,sys/chassis-4/blade-5/board/memarray-1/mem-48,48,HMA84GR7MFR4N-TFTD,0x80AD,SRVMEM2076,32768,2133,equipped
+
+
+FABRIC_INTERCONNECT
+Host,dn,id,model,vendor,serial,oob_if_gw,oob_if_ip,oob_if_mask,total_memory
+172.16.54.166,sys/switch-A,A,UCS-FI-6332-16UP,"Cisco Systems, Inc.",JAB121800UL,172.16.54.2,172.16.54.168,255.255.255.0,32901
+172.16.54.166,sys/switch-B,B,UCS-FI-6332-16UP,"Cisco Systems, Inc.",JAB221800UL,172.16.54.2,172.16.54.167,255.255.255.0,33606
+
+
+VNICS
+Host,id,dn,name,cdn_name,mac,mtu,admin_state,boot_dev,chassis_id,side,slot_id,switch_id,presence,discovery,link_state,oper_state,operability,ep_dn,host_port,if_type,if_role,order,original_mac
+
+
+DISKS
+Host,id,model,vendor,serial,device_type,connection_protocol,disk_state,block_size,bootable,link_speed,number_of_blocks,operability,presence,size,power_state
+172.16.54.166,1,AL13SXB45EN,TOSHIBA,SRVDISK170,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,2,AL13SXB45EN,TOSHIBA,SRVDISK171,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,1,AL13SXB45EN,TOSHIBA,SRVDISK172,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,2,AL13SXB45EN,TOSHIBA,SRVDISK173,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,3,HUC101212CSS600,HGST,SRVDISK174,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+172.16.54.166,4,HUC101212CSS600,HGST,SRVDISK175,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+172.16.54.166,1,HUC101212CSS600,HGST,SRVDISK176,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+172.16.54.166,2,HUC101212CSS600,HGST,SRVDISK177,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+172.16.54.166,1,AL13SXB45EN,TOSHIBA,SRVDISK196,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,2,AL13SXB45EN,TOSHIBA,SRVDISK197,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,1,AL13SXB45EN,TOSHIBA,SRVDISK194,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,2,AL13SXB45EN,TOSHIBA,SRVDISK195,HDD,SAS,unconfigured-good,512,false,6-gbps,879097856,operable,equipped,429247,active
+172.16.54.166,1,HUC101212CSS600,HGST,SRVDISK200,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+172.16.54.166,2,HUC101212CSS600,HGST,SRVDISK201,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+172.16.54.166,1,HUC101212CSS600,HGST,SRVDISK198,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+172.16.54.166,2,HUC101212CSS600,HGST,SRVDISK199,HDD,SAS,unknown,512,unknown,unknown,4800974782464,not-supported,equipped,2344225968,unknown
+
+
+STORAGE
+Host,dn,id,model,vendor,serial,type,oper_state,operability,oprom_boot_status,raid_support
+172.16.54.166,sys/chassis-3/blade-1/board/storage-SAS-1,1,LSI 6G MegaRAID 9265-8i,LSI Corp.,SRVCTLR124,SAS,unknown,operable,enabled,"RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60"
+172.16.54.166,sys/chassis-3/blade-3/board/storage-SAS-1,1,LSI 6G MegaRAID 9265-8i,LSI Corp.,SRVCTLR125,SAS,unknown,operable,enabled,"RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60"
+172.16.54.166,sys/chassis-3/blade-7/board/storage-SAS-4,4,UCSB-MRAID12G,Cisco Systems Inc,SRVCTLR126,SAS,unknown,unknown,enabled,"RAID0, RAID1, RAID10"
+172.16.54.166,sys/chassis-3/blade-7/board/storage-SAS-1,1,UCSB-MRAID12G,Cisco Systems Inc,SRVCTLR127,SAS,unknown,unknown,enabled,"RAID0, RAID1, RAID10"
+172.16.54.166,sys/chassis-4/blade-3/board/storage-SAS-1,1,LSI 6G MegaRAID 9265-8i,LSI Corp.,SRVCTLR140,SAS,unknown,operable,enabled,"RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60"
+172.16.54.166,sys/chassis-4/blade-1/board/storage-SAS-1,1,LSI 6G MegaRAID 9265-8i,LSI Corp.,SRVCTLR139,SAS,unknown,operable,enabled,"RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60"
+172.16.54.166,sys/chassis-4/blade-7/board/storage-SAS-1,1,UCSB-MRAID12G,Cisco Systems Inc,SRVCTLR142,SAS,unknown,unknown,enabled,"RAID0, RAID1, RAID10"
+172.16.54.166,sys/chassis-4/blade-5/board/storage-SAS-1,1,UCSB-MRAID12G,Cisco Systems Inc,SRVCTLR141,SAS,unknown,unknown,enabled,"RAID0, RAID1, RAID10"
+
+
+CPU
+Host,dn,id,model,vendor,arch,cores,cores_enabled,oper_state,socket_designation,speed,stepping,threads
+172.16.54.166,sys/chassis-3/blade-1/board/cpu-1,1,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU1,0.002000,8,8
+172.16.54.166,sys/chassis-3/blade-1/board/cpu-2,2,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU2,0.002000,8,8
+172.16.54.166,sys/chassis-3/blade-3/board/cpu-1,1,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU1,0.002000,8,8
+172.16.54.166,sys/chassis-3/blade-3/board/cpu-2,2,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU2,0.002000,8,8
+172.16.54.166,sys/chassis-3/blade-7/board/cpu-3,3,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU1,2.200000,8,8
+172.16.54.166,sys/chassis-3/blade-7/board/cpu-4,4,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU2,2.200000,8,8
+172.16.54.166,sys/chassis-3/blade-7/board/cpu-1,1,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU1,0.002000,8,8
+172.16.54.166,sys/chassis-3/blade-7/board/cpu-2,2,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU2,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-3/board/cpu-1,1,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU1,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-3/board/cpu-2,2,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU2,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-1/board/cpu-1,1,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU1,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-1/board/cpu-2,2,Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz,Intel(R) Corporation,Xeon,5,5,operable,CPU2,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-7/board/cpu-1,1,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU1,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-7/board/cpu-2,2,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU2,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-5/board/cpu-1,1,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU1,0.002000,8,8
+172.16.54.166,sys/chassis-4/blade-5/board/cpu-2,2,Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz,Intel(R) Corporation,Xeon,2,2,operable,CPU2,0.002000,8,8
+
+
+PSU
+Host,id,model,vendor,serial,type,oper_state
+172.16.54.166,2,UCS-PSU-6332-AC,"Cisco Systems, Inc.",psu_2B,ac,operable
+172.16.54.166,1,UCS-PSU-6332-AC,"Cisco Systems, Inc.",psu_1B,ac,operable
+172.16.54.166,2,UCS-PSU-6332-AC,"Cisco Systems, Inc.",psu_2A,ac,operable
+172.16.54.166,1,UCS-PSU-6332-AC,"Cisco Systems, Inc.",psu_1A,ac,operable
+172.16.54.166,2,NXK-PAC-400W,"Cisco Systems, Inc.",FXPSU26,ac,operable
+172.16.54.166,1,NXK-PAC-400W,"Cisco Systems, Inc.",FXPSU25,ac,operable
+172.16.54.166,2,N2200-PAC-400W,"Cisco Systems, Inc.",FXPSU28,ac,operable
+172.16.54.166,1,N2200-PAC-400W,"Cisco Systems, Inc.",FXPSU27,ac,operable
+172.16.54.166,1,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU85,ac,operable
+172.16.54.166,2,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU86,ac,operable
+172.16.54.166,3,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU87,ac,operable
+172.16.54.166,4,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU88,ac,operable
+172.16.54.166,1,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU101,ac,operable
+172.16.54.166,2,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU102,ac,operable
+172.16.54.166,3,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU103,ac,operable
+172.16.54.166,4,UCSB-PSU-2500ACDV,Cisco Systems Inc,CHPSU104,ac,operable
+
+

@@ -1,0 +1,3437 @@
+172.16.54.166:
+  cpu:
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-3/blade-1/board/cpu-1
+    id: '1'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-3/blade-1/board/cpu-2
+    id: '2'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-3/blade-3/board/cpu-1
+    id: '1'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-3/blade-3/board/cpu-2
+    id: '2'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-3/blade-7/board/cpu-3
+    id: '3'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '2.200000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-3/blade-7/board/cpu-4
+    id: '4'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '2.200000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-3/blade-7/board/cpu-1
+    id: '1'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-3/blade-7/board/cpu-2
+    id: '2'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-4/blade-3/board/cpu-1
+    id: '1'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-4/blade-3/board/cpu-2
+    id: '2'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-4/blade-1/board/cpu-1
+    id: '1'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '5'
+    cores_enabled: '5'
+    dn: sys/chassis-4/blade-1/board/cpu-2
+    id: '2'
+    model: Intel(R) Xeon(R) CPU E7-2880 v2 @ 2.50GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-4/blade-7/board/cpu-1
+    id: '1'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-4/blade-7/board/cpu-2
+    id: '2'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-4/blade-5/board/cpu-1
+    id: '1'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU1
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  - arch: Xeon
+    cores: '2'
+    cores_enabled: '2'
+    dn: sys/chassis-4/blade-5/board/cpu-2
+    id: '2'
+    model: Intel(R) Xeon(R) CPU E7-8880 v4 @ 2.20GHz
+    oper_state: operable
+    socket_designation: CPU2
+    speed: '0.002000'
+    stepping: '8'
+    threads: '8'
+    vendor: Intel(R) Corporation
+  disks:
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '1'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK170
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '2'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK171
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '1'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK172
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '2'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK173
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '3'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK174
+    size: '2344225968'
+    vendor: HGST
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '4'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK175
+    size: '2344225968'
+    vendor: HGST
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '1'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK176
+    size: '2344225968'
+    vendor: HGST
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '2'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK177
+    size: '2344225968'
+    vendor: HGST
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '1'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK196
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '2'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK197
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '1'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK194
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: 'false'
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unconfigured-good
+    id: '2'
+    link_speed: 6-gbps
+    model: AL13SXB45EN
+    number_of_blocks: '879097856'
+    operability: operable
+    power_state: active
+    presence: equipped
+    serial: SRVDISK195
+    size: '429247'
+    vendor: TOSHIBA
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '1'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK200
+    size: '2344225968'
+    vendor: HGST
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '2'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK201
+    size: '2344225968'
+    vendor: HGST
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '1'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK198
+    size: '2344225968'
+    vendor: HGST
+  - block_size: '512'
+    bootable: unknown
+    connection_protocol: SAS
+    device_type: HDD
+    disk_state: unknown
+    id: '2'
+    link_speed: unknown
+    model: HUC101212CSS600
+    number_of_blocks: '4800974782464'
+    operability: not-supported
+    power_state: unknown
+    presence: equipped
+    serial: SRVDISK199
+    size: '2344225968'
+    vendor: HGST
+  fabric_interconnect:
+  - dn: sys/switch-A
+    id: A
+    model: UCS-FI-6332-16UP
+    oob_if_gw: 172.16.54.2
+    oob_if_ip: 172.16.54.168
+    oob_if_mask: 255.255.255.0
+    serial: JAB121800UL
+    total_memory: '32901'
+    vendor: Cisco Systems, Inc.
+  - dn: sys/switch-B
+    id: B
+    model: UCS-FI-6332-16UP
+    oob_if_gw: 172.16.54.2
+    oob_if_ip: 172.16.54.167
+    oob_if_mask: 255.255.255.0
+    serial: JAB221800UL
+    total_memory: '33606'
+    vendor: Cisco Systems, Inc.
+  memory:
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-1
+    id: '1'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1661
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-2
+    id: '2'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1662
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-3
+    id: '3'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1663
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-4
+    id: '4'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1664
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-5
+    id: '5'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1665
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-6
+    id: '6'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1666
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-7
+    id: '7'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1667
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-8
+    id: '8'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1668
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-9
+    id: '9'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1669
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-10
+    id: '10'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1670
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-11
+    id: '11'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1671
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-12
+    id: '12'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1672
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-13
+    id: '13'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1673
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-14
+    id: '14'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1674
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-15
+    id: '15'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1675
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-16
+    id: '16'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1676
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-17
+    id: '17'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1677
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-18
+    id: '18'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1678
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-19
+    id: '19'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1679
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-20
+    id: '20'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1680
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-21
+    id: '21'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1681
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-22
+    id: '22'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1682
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-23
+    id: '23'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1683
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-24
+    id: '24'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1684
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-25
+    id: '25'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1685
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-26
+    id: '26'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1686
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-27
+    id: '27'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1687
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-28
+    id: '28'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1688
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-29
+    id: '29'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1689
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-30
+    id: '30'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1690
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-31
+    id: '31'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1691
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-1/board/memarray-1/mem-32
+    id: '32'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1692
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-1
+    id: '1'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1693
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-2
+    id: '2'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1694
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-3
+    id: '3'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1695
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-4
+    id: '4'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1696
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-5
+    id: '5'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1697
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-6
+    id: '6'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1698
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-7
+    id: '7'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1699
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-8
+    id: '8'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1700
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-9
+    id: '9'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1701
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-10
+    id: '10'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1702
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-11
+    id: '11'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1703
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-12
+    id: '12'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1704
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-13
+    id: '13'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1705
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-14
+    id: '14'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1706
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-15
+    id: '15'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1707
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-16
+    id: '16'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1708
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-17
+    id: '17'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1709
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-18
+    id: '18'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1710
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-19
+    id: '19'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1711
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-20
+    id: '20'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1712
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-21
+    id: '21'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1713
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-22
+    id: '22'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1714
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-23
+    id: '23'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1715
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-24
+    id: '24'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1716
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-25
+    id: '25'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1717
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-26
+    id: '26'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1718
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-27
+    id: '27'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1719
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-28
+    id: '28'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1720
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-29
+    id: '29'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1721
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-30
+    id: '30'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1722
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-31
+    id: '31'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1723
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-3/board/memarray-1/mem-32
+    id: '32'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1724
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-49
+    id: '49'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1725
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-50
+    id: '50'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1726
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-51
+    id: '51'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1727
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-52
+    id: '52'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1728
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-53
+    id: '53'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1729
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-54
+    id: '54'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1730
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-55
+    id: '55'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1731
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-56
+    id: '56'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1732
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-57
+    id: '57'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1733
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-58
+    id: '58'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1734
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-59
+    id: '59'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1735
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-60
+    id: '60'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1736
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-61
+    id: '61'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1737
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-62
+    id: '62'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1738
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-63
+    id: '63'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1739
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-64
+    id: '64'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1740
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-65
+    id: '65'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1741
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-66
+    id: '66'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1742
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-67
+    id: '67'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1743
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-68
+    id: '68'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1744
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-69
+    id: '69'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1745
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-70
+    id: '70'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1746
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-71
+    id: '71'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1747
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-72
+    id: '72'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1748
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-73
+    id: '73'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1749
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-74
+    id: '74'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1750
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-75
+    id: '75'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1751
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-76
+    id: '76'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1752
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-77
+    id: '77'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1753
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-78
+    id: '78'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1754
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-79
+    id: '79'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1755
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-80
+    id: '80'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1756
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-81
+    id: '81'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1757
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-82
+    id: '82'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1758
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-83
+    id: '83'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1759
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-84
+    id: '84'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1760
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-85
+    id: '85'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1761
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-86
+    id: '86'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1762
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-87
+    id: '87'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1763
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-88
+    id: '88'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1764
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-89
+    id: '89'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1765
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-90
+    id: '90'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1766
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-91
+    id: '91'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1767
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-92
+    id: '92'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1768
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-93
+    id: '93'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1769
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-94
+    id: '94'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1770
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-95
+    id: '95'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1771
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-96
+    id: '96'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1772
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-1
+    id: '1'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1773
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-2
+    id: '2'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1774
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-3
+    id: '3'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1775
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-4
+    id: '4'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1776
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-5
+    id: '5'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1777
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-6
+    id: '6'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1778
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-7
+    id: '7'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1779
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-8
+    id: '8'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1780
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-9
+    id: '9'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1781
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-10
+    id: '10'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1782
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-11
+    id: '11'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1783
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-12
+    id: '12'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1784
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-13
+    id: '13'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1785
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-14
+    id: '14'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1786
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-15
+    id: '15'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1787
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-16
+    id: '16'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1788
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-17
+    id: '17'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1789
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-18
+    id: '18'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1790
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-19
+    id: '19'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1791
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-20
+    id: '20'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1792
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-21
+    id: '21'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1793
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-22
+    id: '22'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1794
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-23
+    id: '23'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1795
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-24
+    id: '24'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1796
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-25
+    id: '25'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1797
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-26
+    id: '26'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1798
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-27
+    id: '27'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1799
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-28
+    id: '28'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1800
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-29
+    id: '29'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1801
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-30
+    id: '30'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1802
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-31
+    id: '31'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1803
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-32
+    id: '32'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1804
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-33
+    id: '33'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1805
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-34
+    id: '34'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1806
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-35
+    id: '35'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1807
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-36
+    id: '36'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1808
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-37
+    id: '37'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1809
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-38
+    id: '38'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1810
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-39
+    id: '39'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1811
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-40
+    id: '40'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1812
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-41
+    id: '41'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1813
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-42
+    id: '42'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1814
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-43
+    id: '43'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1815
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-44
+    id: '44'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1816
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-45
+    id: '45'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1817
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-46
+    id: '46'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1818
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-47
+    id: '47'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1819
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-3/blade-7/board/memarray-1/mem-48
+    id: '48'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1820
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-1
+    id: '1'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1997
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-2
+    id: '2'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1998
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-3
+    id: '3'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1999
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-4
+    id: '4'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2000
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-5
+    id: '5'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2001
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-6
+    id: '6'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2002
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-7
+    id: '7'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2003
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-8
+    id: '8'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2004
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-9
+    id: '9'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2005
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-10
+    id: '10'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2006
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-11
+    id: '11'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2007
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-12
+    id: '12'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2008
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-13
+    id: '13'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2009
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-14
+    id: '14'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2010
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-15
+    id: '15'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2011
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-16
+    id: '16'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2012
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-17
+    id: '17'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2013
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-18
+    id: '18'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2014
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-19
+    id: '19'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2015
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-20
+    id: '20'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2016
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-21
+    id: '21'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2017
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-22
+    id: '22'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2018
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-23
+    id: '23'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2019
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-24
+    id: '24'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2020
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-25
+    id: '25'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2021
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-26
+    id: '26'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2022
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-27
+    id: '27'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2023
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-28
+    id: '28'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2024
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-29
+    id: '29'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2025
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-30
+    id: '30'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2026
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-31
+    id: '31'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2027
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-3/board/memarray-1/mem-32
+    id: '32'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2028
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-1
+    id: '1'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1965
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-2
+    id: '2'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1966
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-3
+    id: '3'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1967
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-4
+    id: '4'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1968
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-5
+    id: '5'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1969
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-6
+    id: '6'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1970
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-7
+    id: '7'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1971
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-8
+    id: '8'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1972
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-9
+    id: '9'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1973
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-10
+    id: '10'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1974
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-11
+    id: '11'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1975
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-12
+    id: '12'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1976
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-13
+    id: '13'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1977
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-14
+    id: '14'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1978
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-15
+    id: '15'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1979
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-16
+    id: '16'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1980
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-17
+    id: '17'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1981
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-18
+    id: '18'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1982
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-19
+    id: '19'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1983
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-20
+    id: '20'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1984
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-21
+    id: '21'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1985
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-22
+    id: '22'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1986
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-23
+    id: '23'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1987
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-24
+    id: '24'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1988
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-25
+    id: '25'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1989
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-26
+    id: '26'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1990
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-27
+    id: '27'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1991
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-28
+    id: '28'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1992
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-29
+    id: '29'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1993
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-30
+    id: '30'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1994
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-31
+    id: '31'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1995
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-1/board/memarray-1/mem-32
+    id: '32'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM1996
+    vendor: '0xAD00'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-1
+    id: '1'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2077
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-2
+    id: '2'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2078
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-3
+    id: '3'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2079
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-4
+    id: '4'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2080
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-5
+    id: '5'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2081
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-6
+    id: '6'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2082
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-7
+    id: '7'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2083
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-8
+    id: '8'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2084
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-9
+    id: '9'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2085
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-10
+    id: '10'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2086
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-11
+    id: '11'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2087
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-12
+    id: '12'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2088
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-13
+    id: '13'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2089
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-14
+    id: '14'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2090
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-15
+    id: '15'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2091
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-16
+    id: '16'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2092
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-17
+    id: '17'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2093
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-18
+    id: '18'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2094
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-19
+    id: '19'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2095
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-20
+    id: '20'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2096
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-21
+    id: '21'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2097
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-22
+    id: '22'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2098
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-23
+    id: '23'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2099
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-24
+    id: '24'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2100
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-25
+    id: '25'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2101
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-26
+    id: '26'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2102
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-27
+    id: '27'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2103
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-28
+    id: '28'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2104
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-29
+    id: '29'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2105
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-30
+    id: '30'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2106
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-31
+    id: '31'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2107
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-32
+    id: '32'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2108
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-33
+    id: '33'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2109
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-34
+    id: '34'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2110
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-35
+    id: '35'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2111
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-36
+    id: '36'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2112
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-37
+    id: '37'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2113
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-38
+    id: '38'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2114
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-39
+    id: '39'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2115
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-40
+    id: '40'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2116
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-41
+    id: '41'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2117
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-42
+    id: '42'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2118
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-43
+    id: '43'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2119
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-44
+    id: '44'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2120
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-45
+    id: '45'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2121
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-46
+    id: '46'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2122
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-47
+    id: '47'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2123
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-7/board/memarray-1/mem-48
+    id: '48'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2124
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-1
+    id: '1'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2029
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-2
+    id: '2'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2030
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-3
+    id: '3'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2031
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-4
+    id: '4'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2032
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-5
+    id: '5'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2033
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-6
+    id: '6'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2034
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-7
+    id: '7'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2035
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-8
+    id: '8'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2036
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-9
+    id: '9'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2037
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-10
+    id: '10'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2038
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-11
+    id: '11'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2039
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-12
+    id: '12'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2040
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-13
+    id: '13'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2041
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-14
+    id: '14'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2042
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-15
+    id: '15'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2043
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-16
+    id: '16'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2044
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-17
+    id: '17'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2045
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-18
+    id: '18'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2046
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-19
+    id: '19'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2047
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-20
+    id: '20'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2048
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-21
+    id: '21'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2049
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-22
+    id: '22'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2050
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-23
+    id: '23'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2051
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-24
+    id: '24'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2052
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-25
+    id: '25'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2053
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-26
+    id: '26'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2054
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-27
+    id: '27'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2055
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-28
+    id: '28'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2056
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-29
+    id: '29'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2057
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-30
+    id: '30'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2058
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-31
+    id: '31'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2059
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-32
+    id: '32'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2060
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-33
+    id: '33'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2061
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-34
+    id: '34'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2062
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-35
+    id: '35'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2063
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-36
+    id: '36'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2064
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-37
+    id: '37'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2065
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-38
+    id: '38'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2066
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-39
+    id: '39'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2067
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-40
+    id: '40'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2068
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-41
+    id: '41'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2069
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-42
+    id: '42'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2070
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-43
+    id: '43'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2071
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-44
+    id: '44'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2072
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-45
+    id: '45'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2073
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-46
+    id: '46'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2074
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-47
+    id: '47'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2075
+    vendor: '0x80AD'
+  - capacity: '32768'
+    clock: '2133'
+    dn: sys/chassis-4/blade-5/board/memarray-1/mem-48
+    id: '48'
+    model: HMA84GR7MFR4N-TFTD
+    presence: equipped
+    serial: SRVMEM2076
+    vendor: '0x80AD'
+  pci: []
+  psu:
+  - id: '2'
+    model: UCS-PSU-6332-AC
+    oper_state: operable
+    serial: psu_2B
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '1'
+    model: UCS-PSU-6332-AC
+    oper_state: operable
+    serial: psu_1B
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '2'
+    model: UCS-PSU-6332-AC
+    oper_state: operable
+    serial: psu_2A
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '1'
+    model: UCS-PSU-6332-AC
+    oper_state: operable
+    serial: psu_1A
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '2'
+    model: NXK-PAC-400W
+    oper_state: operable
+    serial: FXPSU26
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '1'
+    model: NXK-PAC-400W
+    oper_state: operable
+    serial: FXPSU25
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '2'
+    model: N2200-PAC-400W
+    oper_state: operable
+    serial: FXPSU28
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '1'
+    model: N2200-PAC-400W
+    oper_state: operable
+    serial: FXPSU27
+    type: ac
+    vendor: Cisco Systems, Inc.
+  - id: '1'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU85
+    type: ac
+    vendor: Cisco Systems Inc
+  - id: '2'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU86
+    type: ac
+    vendor: Cisco Systems Inc
+  - id: '3'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU87
+    type: ac
+    vendor: Cisco Systems Inc
+  - id: '4'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU88
+    type: ac
+    vendor: Cisco Systems Inc
+  - id: '1'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU101
+    type: ac
+    vendor: Cisco Systems Inc
+  - id: '2'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU102
+    type: ac
+    vendor: Cisco Systems Inc
+  - id: '3'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU103
+    type: ac
+    vendor: Cisco Systems Inc
+  - id: '4'
+    model: UCSB-PSU-2500ACDV
+    oper_state: operable
+    serial: CHPSU104
+    type: ac
+    vendor: Cisco Systems Inc
+  storage:
+  - dn: sys/chassis-3/blade-1/board/storage-SAS-1
+    id: '1'
+    model: LSI 6G MegaRAID 9265-8i
+    oper_state: unknown
+    operability: operable
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60
+    serial: SRVCTLR124
+    type: SAS
+    vendor: LSI Corp.
+  - dn: sys/chassis-3/blade-3/board/storage-SAS-1
+    id: '1'
+    model: LSI 6G MegaRAID 9265-8i
+    oper_state: unknown
+    operability: operable
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60
+    serial: SRVCTLR125
+    type: SAS
+    vendor: LSI Corp.
+  - dn: sys/chassis-3/blade-7/board/storage-SAS-4
+    id: '4'
+    model: UCSB-MRAID12G
+    oper_state: unknown
+    operability: unknown
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID10
+    serial: SRVCTLR126
+    type: SAS
+    vendor: Cisco Systems Inc
+  - dn: sys/chassis-3/blade-7/board/storage-SAS-1
+    id: '1'
+    model: UCSB-MRAID12G
+    oper_state: unknown
+    operability: unknown
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID10
+    serial: SRVCTLR127
+    type: SAS
+    vendor: Cisco Systems Inc
+  - dn: sys/chassis-4/blade-3/board/storage-SAS-1
+    id: '1'
+    model: LSI 6G MegaRAID 9265-8i
+    oper_state: unknown
+    operability: operable
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60
+    serial: SRVCTLR140
+    type: SAS
+    vendor: LSI Corp.
+  - dn: sys/chassis-4/blade-1/board/storage-SAS-1
+    id: '1'
+    model: LSI 6G MegaRAID 9265-8i
+    oper_state: unknown
+    operability: operable
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID5, RAID6, RAID10, RAID50, RAID60
+    serial: SRVCTLR139
+    type: SAS
+    vendor: LSI Corp.
+  - dn: sys/chassis-4/blade-7/board/storage-SAS-1
+    id: '1'
+    model: UCSB-MRAID12G
+    oper_state: unknown
+    operability: unknown
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID10
+    serial: SRVCTLR142
+    type: SAS
+    vendor: Cisco Systems Inc
+  - dn: sys/chassis-4/blade-5/board/storage-SAS-1
+    id: '1'
+    model: UCSB-MRAID12G
+    oper_state: unknown
+    operability: unknown
+    oprom_boot_status: enabled
+    raid_support: RAID0, RAID1, RAID10
+    serial: SRVCTLR141
+    type: SAS
+    vendor: Cisco Systems Inc
+  vHBAs: []
+  vNICs: []
+  vic:
+  - admin_power_state: none
+    base_mac: 00:00:33:84:90:01
+    blade_id: '1'
+    chassis_id: '3'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-3/blade-1/adaptor-1
+    id: '1'
+    model: UCSB-MLOM-40G-01
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP90
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:33:84:91:01
+    blade_id: '1'
+    chassis_id: '3'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-3/blade-1/adaptor-2
+    id: '2'
+    model: UCS-VIC-M82-8P
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP91
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:33:85:92:01
+    blade_id: '3'
+    chassis_id: '3'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-3/blade-3/adaptor-1
+    id: '1'
+    model: UCSB-MLOM-40G-01
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP92
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:33:85:93:01
+    blade_id: '3'
+    chassis_id: '3'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-3/blade-3/adaptor-2
+    id: '2'
+    model: UCS-VIC-M82-8P
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP93
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:33:86:94:01
+    blade_id: '7'
+    chassis_id: '3'
+    conn_path: B
+    conn_status: B
+    dn: sys/chassis-3/blade-7/adaptor-4
+    id: '4'
+    model: UCSB-MLOM-40G-01
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP94
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:33:87:96:01
+    blade_id: '7'
+    chassis_id: '3'
+    conn_path: B
+    conn_status: B
+    dn: sys/chassis-3/blade-7/adaptor-2
+    id: '2'
+    model: UCS-VIC-M82-8P
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP96
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:37:97:04:01
+    blade_id: '3'
+    chassis_id: '4'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-4/blade-3/adaptor-1
+    id: '1'
+    model: UCSB-MLOM-40G-01
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP104
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:37:97:05:01
+    blade_id: '3'
+    chassis_id: '4'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-4/blade-3/adaptor-2
+    id: '2'
+    model: UCS-VIC-M82-8P
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP105
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:37:96:02:01
+    blade_id: '1'
+    chassis_id: '4'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-4/blade-1/adaptor-1
+    id: '1'
+    model: UCSB-MLOM-40G-01
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP102
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:37:96:03:01
+    blade_id: '1'
+    chassis_id: '4'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-4/blade-1/adaptor-2
+    id: '2'
+    model: UCS-VIC-M82-8P
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP103
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:37:99:08:01
+    blade_id: '7'
+    chassis_id: '4'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-4/blade-7/adaptor-2
+    id: '2'
+    model: UCS-VIC-M82-8P
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP108
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
+  - admin_power_state: none
+    base_mac: 00:00:37:98:06:01
+    blade_id: '5'
+    chassis_id: '4'
+    conn_path: A,B
+    conn_status: A,B
+    dn: sys/chassis-4/blade-5/adaptor-1
+    id: '1'
+    model: UCSB-MLOM-40G-01
+    oper_state: operable
+    operability: unknown
+    part_number: ''
+    pci_addr: ''
+    pci_slot: N/A
+    perf: not-supported
+    presence: equipped
+    serial: SRVADAP106
+    thermal: unknown
+    vendor: Cisco Systems Inc
+    voltage: not-supported
