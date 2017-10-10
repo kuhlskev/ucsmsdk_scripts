@@ -40,6 +40,7 @@ inventory_spec = {
         "class_id": "NetworkElement",
         "props": [
             {"prop": "dn"},
+            {"prop": "version"},
             {"prop": "id"},
             {"prop": "model"},
             {"prop": "vendor"},
@@ -72,6 +73,7 @@ inventory_spec = {
         ],
         "props": [
             {"prop": "id"},
+            {"prop": "dn"},
             {"prop": "model"},
             {"prop": "vendor"},
             {"prop": "serial"},
@@ -115,6 +117,7 @@ inventory_spec = {
             {"prop": "voltage"},
             {"prop": "thermal"},
             {"prop": "pci_addr"},
+            {"prop": "version"},
             {"prop": "pci_slot"}]
     },
     "storage": {
@@ -130,6 +133,7 @@ inventory_spec = {
             {"prop": "operability"},
             {"prop": "oprom_boot_status"},
             {"prop": "raid_support"},
+            {"prop": "version"}
         ],
     },
     "disks": {
@@ -150,6 +154,7 @@ inventory_spec = {
             {"prop": "operability"},
             {"prop": "presence"},
             {"prop": "size"},
+            {"prop": "version"},
             {"prop": "power_state"}
         ]
     },
@@ -210,7 +215,51 @@ inventory_spec = {
             {"prop": "original_node_wwn"},
             {"prop": "original_wwn"}
         ]
+    },
+    "Blades": {
+        "class_id": "ComputeBlade",
+        "props": [
+            {"prop": "admin_power"}, 
+            {"prop": "admin_state"}, 
+            {"prop": "asset_tag"}, 
+            {"prop": "assigned_to_dn"},
+            {"prop": "association"},
+            {"prop": "availability"},
+            {"prop": "available_memory"},
+            {"prop": "chassis_id"},
+            {"prop": "dn"},
+            {"prop": "memory_speed"},
+            {"prop": "model"},
+            {"prop": "num_of_adaptors"},
+            {"prop": "num_of_cores"},
+            {"prop": "num_of_cores_enabled"},
+            {"prop": "num_of_cpus"},
+            {"prop": "num_of_eth_host_ifs"},
+            {"prop": "num_of_fc_host_ifs"},
+            {"prop": "oper_power"},
+            {"prop": "oper_state"},
+            {"prop": "original_uuid"},
+            {"prop": "part_number"},
+            {"prop": "serial"},
+            {"prop": "server_id"},
+            {"prop": "slot_id"},
+            {"prop": "status"},
+            {"prop": "total_memory"},
+            {"prop": "uuid"},
+            {"prop": "vendor"},
+            {"prop": "version"}
+        ]
+    },
+    "firmware": {
+        "class_id": "FirmwareRunning",
+        "props": [
+            {"prop": "type"},
+            {"prop": "dn"},
+            {"prop": "version"}
+        ]
+
     }
+
 }
 
 
@@ -455,7 +504,31 @@ def get_inventory(handle,
                                              str(component)))
 
                 _get_inventory(server, comp, spec, inventory)
+    #split out the firmware, then add into the relevant spot in the dict
+    for ip in inventory: #iterate through UCSM
+        firmware = inventory[ip].pop('firmware') #remove the firmware section and set aside
+        #print firmware
+        for item in ['vic', 'storage','Blades', 'fabric_interconnect']: #iterate through things that have firmware
+            for element, value in enumerate(inventory[ip][item]): # find the list of object in dict with firmware
+                for index, firmware_item in enumerate(firmware): # iterate the list of items in the firmware list
+                    #print firmware_item
+                    if inventory[ip][item][element]['dn'] in firmware_item['dn'] and 'mgmt/fw-system' in firmware_item['dn'] and firmware_item['version'] != "":
+                        #print firmware_item['version']
+                        #print inventory[ip][item][element]
+                        inventory[ip][item][element]['version'] = firmware_item['version']
+                        firmware.pop(index) #remove element from firmware list 
+        # storage controller version WIP
+        #for element, value in enumerate(inventory[ip]['storage']): # find the list of object in dict with firmware
+            #for index, firmware_item in enumerate(firmware): # iterate the list of items in the firmware list
+                #print firmware_item
+                #if inventory[ip][item][element]['dn'] in firmware_item['dn'] and 'fw-boot-loader' in firmware_item['dn'] and firmware_item['version'] != "":
+                    #print firmware_item['version']
+                    #print inventory[ip][item][element]
+                #    inventory[ip][item][element]['version'] = firmware_item['version']
+                #    firmware.pop(index) #remove element from firmware list 
 
+
+    #iterate through inventory to add firmware to components
     if file_format == "csv":
         _get_inventory_csv(inventory=inventory, file_name=file_name, spec=spec)
     elif file_format == "html":
@@ -473,6 +546,7 @@ from ucsmsdk.ucshandle import UcsHandle
 from yaml import dump
 import sys
 from argparse import ArgumentParser
+import getpass
 
 ucs_IP = '172.16.54.166'
 ucs_list = ['172.16.54.166','172.16.54.169']
@@ -492,7 +566,7 @@ if __name__ == '__main__':
     #parser.add_argument('-p', '--password', type=str, default='ucspe',
     #                    help="UCSM Password")
     parser.add_argument('-i', '--interactive', type=bool, default=True,
-                        help="Enter Password Interactively True/False")
+                        help="Enter Password Interactively True/False, if False vars in script used")
     args = parser.parse_args()
 
     host_list = []
@@ -506,7 +580,7 @@ if __name__ == '__main__':
                 break
             host_list.append(host) 
         username = raw_input("Enter Username: ")   
-        password = raw_input("Enter Password: ")
+        password = getpass.getpass(prompt="Enter Password: ")
     else:
         # Use the Variables above main
         password = ucs_password
@@ -526,4 +600,5 @@ if __name__ == '__main__':
         handle.login()
 
     myinventory = get_inventory(handle=handle, file_format='csv', file_name='UCS_inventory.csv')
-
+    with open ('UCS_inventory.yaml', 'w')  as outfile:
+        dump(myinventory, outfile, default_flow_style=False)
