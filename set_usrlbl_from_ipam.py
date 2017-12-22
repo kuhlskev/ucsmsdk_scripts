@@ -37,11 +37,7 @@ def write_label(handle, dn, label):
     handle.add_mo(mo, True)
     handle.commit()
 
-if __name__ == '__main__':
-    parser = ArgumentParser(description='Select options.')
-    parser.add_argument('-i', '--interactive', action='store_true', default=False,
-                        help="Enter UCS Details Interactively")
-    args = parser.parse_args()
+def get_handle_list(args):
     host_list = []
     if args.interactive:        
         while True:
@@ -50,24 +46,28 @@ if __name__ == '__main__':
             host_list.append(host) 
         username = raw_input("Enter Username: ")   
         password = getpass.getpass(prompt="Enter Password: ")
-        xl_file = raw_input("Enter XLS filepath: ") 
-    else:
-        # Use the Global Variables
+    else: # Use the Global Variables
         password = ucs_password
         username = ucs_username
         host_list = ucs_list
-
     handle_list = []
     #for host in args.host_list: # Doesnt work as argument seen as a string, not a list of strings
     for host in host_list:
-        #print host
         try:
             handle_instance = UcsHandle(host, username, password)
             handle_instance.login()
             handle_list.append(handle_instance)
         except:
             print "unable to connect to %s"%host
+    return handle_list
 
+if __name__ == '__main__':
+    parser = ArgumentParser(description='Select options.')
+    parser.add_argument('-i', '--interactive', action='store_true', default=False,
+                        help="Enter UCS Details Interactively")
+    args = parser.parse_args()
+    handle_list = get_handle_list(args)
+    if args.interactive: xl_file = raw_input("Enter XLS filepath: ") 
     ipam_list = xls_to_dict(xl_file)
     for item in ipam_list:
         for handle in handle_list:
